@@ -33,6 +33,33 @@
             float: left;
             background-color: #fff;
         }
+        .myinput{
+            padding: 10px;
+            border: 1px solid #E5E6E7;
+            color: #676A6C;
+
+        }
+        .myinput:active{
+            border:1px solid #1AB394;
+        }
+        .inputstyle{
+            padding: 6px 12px;
+            border: 1px solid #e5e6e7;
+            font-family: 'Microsoft Yahei';
+            font-size: 14px;
+            color: inherit;
+            display: inline-block;
+            border-radius: 2px;
+        }
+        /*input:active{border:1px solid #0000FF;}*/
+        /*input:hover {border:1px solid #1AB394;}*/
+       /* input:visited {border:1px solid crimson;}*/
+        /*input:link {border:1px solid black;}*/
+        /*input:focus {border:1px solid #1AB394;}*/
+        input:focus {
+            border-color: #1ab394 !important;
+            outline: none;
+        }
     </style>
 </head>
 <body>
@@ -52,6 +79,7 @@ hello demo
         <div class="info"></div>
     </div>
 </div>
+<input type="text" class="inputstyle" value="aa这里是中国字"/>
 
 </body>
 </html>
