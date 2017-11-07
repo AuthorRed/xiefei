@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var o={};
+        function showVal(){
+            var str=document.getElementById('str').value;
+            console.log('str:'+str);
+            console.log('o:'+o);
+            o[str]=str;
+            console.log('o+o[str]:'+o);
+        }
+        function Worker(){id:1;name:'ada'};
+        Worker.prototype={sex:'female',from:'beijin'};
+        var w1=new Worker(); console.log(w1.sex);
+    </script>
+</head>
+<body>
+<input type="text" id="str" onkeyup="showVal()"/>
+</body>
+</html>
