@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8" />
+    <title>display_CSS参考手册_web前端开发参考手册系列</title>
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="../../css/xiefei.note.css"/>
+    <style>
+    </style>
+</head>
+<body>
+<div class="subject">position属性笔记</div>
+<div class="content">
+
+</div>
+
+
+
+<div class="tipArea">
+    <div class="tip"> static 是默认值。任意 position: static; 的元素不会被特殊的定位。
+        一个 static 元素表示它不会被“positioned”，
+        一个 position 属性被设置为其他值的元素表示它会被“positioned”
+    </div>
+    <div class="tip"> relative 在一个相对定位
+        的元素上设置 top 、 right 、 bottom 和 left 属性会使其偏离其正常位置。
+        其他的元素的位置则不会受该元素的影响发生位置改变来弥补它偏离后剩下的空隙。
+    </div>
+    <div class="tip"> fixed）元素会相对于视窗来定位，这意味着即便页面滚动，
+        它还是会停留在相同的位置。
+    </div>
+    <div class="tip"> absolute 是相对于最近的“positioned”祖先元素。
+        如果绝对定位（position属性的值为absolute）的元素没有“positioned”祖先元素，那么它是相对于文档的 body 元素，
+        并且它会随着页面滚动而移动。记住一个“positioned”元素是指 position 值不是 static 的元素。
+    </div>
+
+</div>
+</body>
+</html>

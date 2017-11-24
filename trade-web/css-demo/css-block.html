@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8" />
+    <title>display_CSS参考手册_web前端开发参考手册系列</title>
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="../../css/xiefei.note.css"/>
+    <style>
+        .inline{background-color: #00CFEC;
+            width: 190px;
+            height: 66px;
+            border-radius: 5px;
+            display: inline;
+            margin: 3px;
+        }
+        .block{background-color: #00CFEC;
+            width: 190px;
+            height: 66px;
+            border-radius: 5px;
+            display: block;
+            margin: 3px;
+        }
+        .inline-block{background-color: #00CFEC;
+            width: 190px;
+            height: 66px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 3px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="subject">display:inline、block、inline-block的区别</div>
+<div class="content">
+    <div class="inline">display:inline</div>
+    <div class="inline">display:inline</div>
+    <div class="inline">display:inline</div>
+</div>
+<div class="content">
+    <div class="block">display:block</div>
+    <div class="block">display:block</div>
+    <div class="block">display:block</div>
+</div>
+<div class="content">
+    <div class="inline-block">display:inline-block</div>
+    <div class="inline-block">display:inline-block</div>
+    <div class="inline-block">display:inline-block</div>
+</div>
+
+
+
+<div class="tipArea">
+    <div class="tip">block元素的特点是：总是在新行上开始；
+       <br> 宽高缺省是它的容器的100%;<br>
+        &lt;div &gt;, &lt;p&gt;,  &lt;form&gt;和 是块元素的例子。
+    </div>
+    <div class="tip">inline元素的特点是：和其他元素都在一行上；
+        <br/>宽度就是它的文字或图片的宽度，不可改变。
+        &lt;span> &lt;a> &lt;img> &lt;em>
+    </div>
+    <div class="tip">inline-block的元素特点：旁边的内联对象会被呈递在同一行内,宽高缺省是它的容器的100%</div>
+</div>
+</body>
+</html>
